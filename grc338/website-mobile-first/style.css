@@ -8,13 +8,16 @@ img {
 
 figure {
     margin: 0em 1em 0em 1em;
+    color: #C5B09D;
 }
 body {
     background-color: #000000;
     text-align: center;
+    color: #C5B09D;
 }
 div.container {
     text-align: center;
+    color: #C5B09D;
 }
 
 #logo {
@@ -29,6 +32,7 @@ nav ul {
     padding: 0.5em;
     background-color: #000000;
     margin: 0.5em;
+    color: #C5B09D;
 }
 
 nav ul li {
@@ -90,10 +94,12 @@ p {
 
 li {
     list-style-type: none;
+    color: #C5B09D;
 }
 
 footer {
     font-size: 0.5em;
+    color: #C5B09D;
 }
 
 

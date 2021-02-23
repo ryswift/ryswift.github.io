@@ -37,7 +37,7 @@ nav ul li {
     margin-right: 2em;
     font-family: futura-pt-bold,sans-serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.3em;
     text-transform: uppercase;
 }
 
@@ -61,7 +61,7 @@ h2 {
     font-family: futura-pt-bold,sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -74,17 +74,19 @@ h3 {
     font-style: normal;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.4em;
     color: #A36530;
 }
 
 h4 {
     font-family: futura-pt,sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: bold;
     text-align: center;
+    font-weight: 900;
     margin-bottom: 0.6em;
     margin-top: 1em;
+    padding-right: 2.3em;
     color: #C5B09D;
 }
 
@@ -93,9 +95,9 @@ p {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin: 2em;
-    padding-right: 1em;
-    margin-bottom: 0.7em;
+    margin: 1.6em;
+    padding-right: 2.3em;
+    margin-bottom: 1em;
     margin-top: 0.5em;
     color: #C5B09D;
 }
@@ -105,5 +107,10 @@ li {
 }
 
 footer {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 0.8em;
+    text-transform: uppercase;
+    padding-left: 2.1em;
 }

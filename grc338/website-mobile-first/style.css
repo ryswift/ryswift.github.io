@@ -1,59 +1,51 @@
 /*CSS DOCUMENT*/
 
 img {
-    width: 50%;
+    width: 85%;
     margin: 1em;
     align-content: center;
 }
 
 figure {
     margin: 0em 1em 0em 1em;
-    color: #C5B09D;
 }
 body {
     background-color: #000000;
     text-align: center;
-    color: #C5B09D;
 }
 div.container {
     text-align: center;
-    color: #C5B09D;
 }
 
 #logo {
-    width: 6em;
+    width: 10em;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav ul {
-    padding: 0.5em;
-    background-color: #000000;
-    margin: 0.5em;
-    color: #C5B09D;
-}
-
 nav ul li {
-    list-style-type: none;
     display: inline;
-    margin: 1em;
-    font-family: Impact;
-    color: #C5B09D;
+    list-style-type: none;
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 nav ul li a {
     text-decoration: none;
-    font-family: Impact;
-    text-transform: uppercase;
-    font-weight: 500;
     color: #C5B09D;
 }
 
+nav ul li a:hover {
+    color: #A36530;
+}
+
 h2 {
-    font-family: Impact;
-    font-weight: 600;
-    font-size: 1.5em;
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin-bottom: 0.5em;
     text-align: center;
     letter-spacing: 0.2em;
@@ -61,45 +53,39 @@ h2 {
     color: #C5B09D;
 }
 h3 {
-    font-family: Impact;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: underline;
     font-size: 1.2em;
-    letter-spacing: 0.1em;
-    color: #C5B09D;
 }
 
 h4 {
-    font-family: Impact;
-    font-weight: 500;
-    font-size: 1.1em;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    padding-right: 2em;
     margin-bottom: 0.6em;
     margin-top: 1em;
-    color: #C5B09D;
 }
 
 p {
-    font-family: Impact;
-    font-size: 1em;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     margin: 2em;
     padding-right: 1em;
     margin-bottom: 0.7em;
     margin-top: 0.5em;
-    color: #C5B09D;
 }
 
 li {
     list-style-type: none;
-    color: #C5B09D;
 }
 
 footer {
-    font-size: 0.5em;
-    color: #C5B09D;
+    font-size: 0.8em;
 }
 
 

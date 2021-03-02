@@ -1,0 +1,145 @@
+/*CSS DOCUMENT*/
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+div.container {
+    text-align: center;
+}
+
+#logo {
+    width: 6em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    padding: 0em;
+    word-spacing: 1.5 em;
+    text-align: center;   
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 2em;
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #C5B09D;
+}
+
+nav ul li a:hover {
+    color: #A36530;
+}
+
+h1{
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 2em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #C5B09D;
+}
+
+h3 {
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    line-height: 2em;
+    color: #A36530;
+}
+
+h4 {
+    font-family: futura-pt,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0.6em;
+    margin-top: 1em;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    color: #C5B09D;
+}
+
+p {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.6em;
+    margin: 2em;
+    margin-bottom: 0.7em;
+    margin-top: 0.5em;
+    color: #C5B09D;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 50em){
+
+div.container{
+max-width: 70em;
+margin: auto;
+}
+
+figure{
+max-width: 60em;
+margin: auto;
+}
+    
+#menu{
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+max-width: 50em;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav ul{
+max-width: 70em;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.coffee,.tea,.baked goods{
+	width: 90%;
+}
+
